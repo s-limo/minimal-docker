@@ -19,4 +19,5 @@ workflows:
         - content: |-
             #!/bin/bash
             set -ex
-            docker-compose run --rm sample-app
+            docker-compose run 
+            #--rm sample-app
